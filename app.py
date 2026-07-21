@@ -6,6 +6,7 @@ from typing import List, Optional
 import torch
 # pyrefly: ignore [missing-import]
 from fastapi import FastAPI, HTTPException
+# pyrefly: ignore [missing-import]
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from tokenizer import CharacterTokenizer
