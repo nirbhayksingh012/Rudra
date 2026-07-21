@@ -8,6 +8,7 @@ import torch
 from fastapi import FastAPI, HTTPException
 # pyrefly: ignore [missing-import]
 from fastapi.middleware.cors import CORSMiddleware
+# pyrefly: ignore [missing-import]
 from pydantic import BaseModel, Field
 from tokenizer import CharacterTokenizer
 from model import Rudra
@@ -127,6 +128,7 @@ async def health_check():
     }
 
 if __name__ == "__main__":
+    # pyrefly: ignore [missing-import]
     import uvicorn
     # Start the server on port 8000
     uvicorn.run(app, host="127.0.0.1", port=8000)
