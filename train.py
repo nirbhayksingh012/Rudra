@@ -128,7 +128,6 @@ def main():
 
         # Gradient clipping for training stability
         torch.nn.utils.clip_grad_norm_(model.parameters(), config.max_grad_norm)
-
         optimizer.step()
 
     print("\n" + "=" * 60)
