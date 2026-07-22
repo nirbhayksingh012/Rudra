@@ -1,4 +1,4 @@
-# pyrefly: ignore [missing-import]
+# pyrefly: ignore [missing-import, reportMissingImports]
 import torch
 # pyright: ignore[reportMissingImports]
 import torch.nn as nn
