@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 import torch
 # pyright: ignore[missing-import]
 import torch.nn as nn
