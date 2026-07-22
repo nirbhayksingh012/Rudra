@@ -1,4 +1,5 @@
 import math
+# pyrefly: ignore [missing-import]
 from duckduckgo_search import DDGS
 
 def calculate(expression: str) -> str:
