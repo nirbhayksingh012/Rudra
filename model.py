@@ -1,6 +1,6 @@
 # pyrefly: ignore [missing-import]
 import torch
-# pyright: ignore[missing-import]
+# pyright: ignore[reportMissingImports]
 import torch.nn as nn
 # pyright: ignore[missing-import]
 from torch.nn import functional as F
